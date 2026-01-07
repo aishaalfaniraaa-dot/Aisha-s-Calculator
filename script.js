@@ -1,5 +1,3 @@
-
-const operators = ["+", "−", "×", "÷"];
 const clickSound = new Audio("click.mp3.mp3");
 clickSound.volume = 0.3;
 const display = document.getElementById("display");
@@ -88,5 +86,6 @@ display.classList.add("updated");
 setTimeout(() => {
   display.classList.remove("updated");
 }, 120);
+
 
 
